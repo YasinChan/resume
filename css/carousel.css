@@ -1,0 +1,109 @@
+.carousel {
+    position: relative;
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel .img-ct {
+    position: absolute;
+    width: 3200px;
+    height: 400px;
+}
+
+.carousel .img-ct li {
+    float: left;
+    width: 800px;
+    height: 400px;
+}
+
+.carousel .img-ct li:nth-child(1),
+.carousel .img-ct li:nth-child(5) {
+    background: linear-gradient(to bottom left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.7));
+}
+
+.carousel .img-ct li:nth-child(2),
+.carousel .img-ct li:nth-child(6) {
+    background: linear-gradient(to bottom left, rgba(255, 255, 0, 0), rgba(255, 255, 0, 0.7));
+}
+
+.carousel .img-ct li:nth-child(3) {
+    background: linear-gradient(to bottom left, rgba(0, 255, 0, 0), rgba(0, 255, 0, 0.7));
+}
+
+.carousel .img-ct li:nth-child(4) {
+    background: linear-gradient(to bottom left, rgba(0, 0, 255, 0), rgba(0, 0, 255, 0.7));
+}
+
+.carousel .img-ct h1 {
+    padding-top: 100px;
+    text-align: center;
+    color: #551A8B;
+}
+
+.carousel .img-ct p {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #551A8B;
+}
+
+.carousel .img-ct:after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.carousel .btn {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background: #000;
+    opacity: 0.4;
+    text-align: center;
+    line-height: 28px;
+    display: block;
+    color: #BEE1EB;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all 1s;
+    /*css3效果*/
+}
+
+.carousel .btn:hover {
+    opacity: 1
+}
+
+.carousel .btn-pre {
+    left: 10px;
+}
+
+.carousel .btn-nxt {
+    right: 10px;
+}
+
+.carousel .bullet {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel .bullet li {
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.carousel .bullet .active {
+    background-color: #00AFF0;
+    width: 40px;
+}
