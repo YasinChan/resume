@@ -20,20 +20,20 @@
 
 .carousel .img-ct li:nth-child(1),
 .carousel .img-ct li:nth-child(5) {
-    background: linear-gradient(to bottom left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.7));
+    background: linear-gradient(to right, #61FF69, #B8F788);
 }
 
 .carousel .img-ct li:nth-child(2),
 .carousel .img-ct li:nth-child(6) {
-    background: linear-gradient(to bottom left, rgba(255, 255, 0, 0), rgba(255, 255, 0, 0.7));
+    background: linear-gradient(to right, #B8F788, #58D2E8);
 }
 
 .carousel .img-ct li:nth-child(3) {
-    background: linear-gradient(to bottom left, rgba(0, 255, 0, 0), rgba(0, 255, 0, 0.7));
+    background: linear-gradient(to right, #58D2E8, #F2B6B6);
 }
 
 .carousel .img-ct li:nth-child(4) {
-    background: linear-gradient(to bottom left, rgba(0, 0, 255, 0), rgba(0, 0, 255, 0.7));
+    background: linear-gradient(to right, #F2B6B6, #61FF69);
 }
 
 .carousel .img-ct h1 {
