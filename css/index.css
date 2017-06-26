@@ -88,18 +88,18 @@ li {
     font-weight: bold;
     font-size: 35px;
     color: aliceblue;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .photo-name .cy {
     font-weight: bold;
     font-size: 20px;
     color: aliceblue;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .contact {
-    padding-top: 20px;
+    padding-top: 15px;
     padding-left: 40px;
 }
 
@@ -118,7 +118,7 @@ li {
 }
 
 .aside>ul {
-    padding-top: 20px;
+    padding-top: 15px;
     text-align: center;
 }
 
@@ -144,7 +144,7 @@ li {
 
 .aside .social {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 .aside .social>div {
@@ -348,10 +348,10 @@ h3 {
     text-align: center;
     width: 150px;
     height: 50px;
-    animation: 4s three infinite linear;
+    /*animation: 4s three infinite linear;*/
     display: inline-block;
     margin: 10px;
-    color: yellow;
+    color: #00AFF0;
 }
 
 @keyframes three {
